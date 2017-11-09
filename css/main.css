@@ -1,0 +1,57 @@
+@font-face{
+	font-family:"Milkshake";
+	
+	font-weight:normal;
+	font-style: normal;
+	src: url("Milkshake.otf") format("opentype");
+	src: url("Milkshake.ttf") format("truetype");
+}
+@font-face{
+	font-family:"TeX-Gyre-Schola";
+	
+	font-weight:normal;
+	font-style:normal;
+	src: url("texgyreschola-regular.otf") format("opentype");
+}
+
+body{
+	margin:0;
+	font-family:"TeX-Gyre-Schola";
+}
+
+h1{
+	font-family:"Milkshake";
+	font-size:3.25rem;
+	background-color:#93bbe4;
+	text-align:center;
+	color:white;
+	margin:0;
+	padding:.5rem;
+}
+section{
+	margin:.5rem;
+}
+nav{
+	background-color:#93bbe4;
+	text-align:center;
+	color:white;
+	padding:.5rem;
+}
+nav .button{
+	text-decoration:none;
+	color:white;
+	width:100%;
+}
+
+nav .button:hover, nav .button:focus{
+	background-color:#fee381;
+}
+figure{
+	max-width:100%;
+	margin:0;
+	
+	
+}
+figure img{
+	max-width:100%;
+}
