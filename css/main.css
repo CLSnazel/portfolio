@@ -115,8 +115,12 @@ nav .button:hover, nav .button:focus{
 	margin-top:0;
 }
 
-.caption{
+.center{
 	text-align:center;
+}
+.caption{
+	color:#777777;
+	font-size:.65em;
 }
 
 @media (min-width:40em){
@@ -177,4 +181,10 @@ a h3,a p{
 }
 .no-underline p{
 	font-weight:normal;
+}
+
+.half-col img.smaller{
+	max-width:50%;
+	margin-left:20%;
+	height:auto;
 }
