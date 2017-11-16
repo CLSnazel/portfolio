@@ -232,7 +232,12 @@ QUARTER COLUMN
 		margin-bottom:2em;
 	}
 }
+/* FIGURE */
 
+figure.multi{
+	margin-left:0;
+	margin-right:0;
+}
 
 /*
 PROJECT LISTING
@@ -281,3 +286,4 @@ a h3,a p{
 	margin-left:25%;
 	height:auto;
 }
+
