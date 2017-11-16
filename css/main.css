@@ -104,10 +104,10 @@ nav .button:hover, nav .button:focus{
 	flex-grow:1;
 	flex-wrap:wrap;
 }
-.half-col div *{
+.half-col div *, .half-col figure*{
 	max-width:100%
 }
-.half-col div img{
+.half-col div img, .half-col figure img{
 	max-width:100%;
 	margin:0;
 }
@@ -115,12 +115,17 @@ nav .button:hover, nav .button:focus{
 	margin-top:0;
 }
 
+div.half-col{
+	margin-top:1em;
+	margin-bottom:3em;
+}
+
 .center{
 	text-align:center;
 }
-.caption{
+figcaption{
 	color:#777777;
-	font-size:.65em;
+	font-size:.85rem;
 }
 
 @media (min-width:40em){
@@ -130,7 +135,7 @@ nav .button:hover, nav .button:focus{
 		margin-left:auto;
 		margin-right:auto;
 	}
-	.half-col div *{
+	.half-col div *, .half-col figure *{
 		max-width:100%
 	}
 	
@@ -148,10 +153,7 @@ QUARTER COLUMN
 div.quart-col{
 	margin-bottom:4em;
 }
-div.half-col{
-	margin-top:1em;
-	margin-bottom:3em;
-}
+
 .quart-col{
 	display:flex;
 	flex-wrap:wrap;
@@ -169,7 +171,7 @@ div.half-col{
 	.quart-col div{
 		max-width:48%;
 		height:auto;
-		margin-right:auto;
+		margin-right:26%;
 	}
 }
 @media (min-width:51em){
