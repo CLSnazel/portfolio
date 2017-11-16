@@ -104,12 +104,14 @@ nav .button:hover, nav .button:focus{
 	flex-grow:1;
 	flex-wrap:wrap;
 }
-.half-col div *, .half-col figure*{
+.half-col div *, .half-col figure *{
 	max-width:100%
 }
 .half-col div img, .half-col figure img{
+	display:block;
 	max-width:100%;
-	margin:0;
+	margin-left:auto;
+	margin-right:auto;
 }
 .half-col p{
 	margin-top:0;
@@ -137,11 +139,14 @@ figcaption{
 	}
 	.half-col div *, .half-col figure *{
 		max-width:100%
+		
 	}
 	
 }
 @media (min-width:34em){
 	section .half-col *{
+		margin-right:auto;
+		margin-left:auto;
 		margin-right:auto;
 	}
 }
@@ -150,37 +155,79 @@ QUARTER COLUMN
 
 */
 
-div.quart-col{
-	margin-bottom:4em;
-}
 
 .quart-col{
 	display:flex;
 	flex-wrap:wrap;
 	width:auto;
+	margin-bottom:2em;
 }
-.quart-col div{
+.quart-col *{
 	max-width:100%;
 	flex-shrink:1;
 	flex-grow:1;
 	flex-wrap:wrap;
 	margin:0;
-	margin-bottom:3em;
+	margin-left:auto;
+	margin-right:auto;
+}
+.quart-col div img{
+	max-width:100%;
+	margin:0;
 }
 @media (min-width:34em){
 	.quart-col div{
 		max-width:48%;
 		height:auto;
-		margin-right:26%;
+		margin-left:auto;
+	margin-right:auto;
 	}
 }
 @media (min-width:51em){
 	.quart-col div{
 		max-width:23%;
 		height:auto;
+		margin-left:auto;
 		margin-right:auto;
 	}
 	.quart-col{
+		margin-top:1em;
+		margin-bottom:2em;
+	}
+}
+
+/*THIRD COLUMN*/
+
+.third-col{
+	display:flex;
+	flex-wrap:wrap;
+	width:auto;
+	margin-bottom:2em;
+}
+.third-col *{
+	max-width:80%;
+	flex-shrink:1;
+	flex-grow:1;
+	flex-wrap:wrap;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.third-col div img, .third-col figure *{
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+@media (min-width:37.5em){
+	.third-col *{
+		max-width:30%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.third-col{
 		margin-top:1em;
 		margin-bottom:2em;
 	}
@@ -231,6 +278,6 @@ a h3,a p{
 
 .half-col img.smaller{
 	max-width:50%;
-	margin-left:20%;
+	margin-left:25%;
 	height:auto;
 }
