@@ -66,8 +66,8 @@ nav .button{
 }
 
 nav .button:hover, nav .button:focus{
-	background-color:white;
-	color:#93bbe4;
+	background-color:#4578AD;
+	color:white;
 	
 }
 
@@ -214,7 +214,7 @@ QUARTER COLUMN
 	margin-right:auto;
 	
 }
-.third-col div img, .third-col figure *{
+.third-col div img, .third-col figure *, .third-col div *{
 	max-width:100%;
 	margin-left:auto;
 	margin-right:auto;
