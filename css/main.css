@@ -138,6 +138,15 @@ figcaption{
 	font-size:.85rem;
 }
 
+.half-col .left{
+	margin-left:0;
+	margin-right:auto;
+}
+
+.half-col .right{
+	margin-right:0;
+	margin-left:auto;
+}
 @media (min-width:40em){
 	section .half-col *{
 		max-width:46%;
@@ -249,6 +258,20 @@ figure{
 }
 
 /*
+Left - right margin testing
+*/
+
+.left{
+	margin-left:0;
+	margin-right:auto;
+}
+
+.right{
+	margin-left:auto;
+	margin-right:0;
+}
+
+/*
 PROJECT LISTING
 */
 
@@ -319,4 +342,14 @@ video{
 	max-width:100%;
 	height:auto;
 	object-fit:scale-down;
+}
+
+/*
+Overview
+*/
+.overview h3{
+	font-size:1rem;
+}
+.overview{
+	background-color:#4578AD;
 }
