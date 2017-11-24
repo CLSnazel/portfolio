@@ -133,10 +133,7 @@ div.half-col{
 .center{
 	text-align:center;
 }
-figcaption{
-	color:#777777;
-	font-size:.85rem;
-}
+
 
 .half-col .left{
 	margin-left:0;
@@ -226,7 +223,6 @@ QUARTER COLUMN
 	flex-shrink:1;
 	flex-grow:1;
 	flex-wrap:wrap;
-	margin:0;
 	margin-left:auto;
 	margin-right:auto;
 	
@@ -263,8 +259,14 @@ QUARTER COLUMN
 figure{
 	margin-left:0;
 	margin-right:0;
-	margin-top:0;
+	margin-top:1rem;
+	border-style:solid;
+	border-color:#93bbe4;
+	border-right:0;
+	border-left:0;
+	padding:5%;
 }
+
 figure .third-col{
 	margin-bottom:0;
 
@@ -274,6 +276,22 @@ figure .third-col *{
 	margin-right:auto;
 	margin-left:auto;
 	margin-bottom:.25rem;
+}
+figure img{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+}
+figcaption{
+		color:#777777;
+		font-size:.85rem;
+	}
+@media(min-width:37.5em){
+	figure{
+		border-style:none;
+		padding:0;
+		margin-top:0;
+	}
 }
 
 /*
