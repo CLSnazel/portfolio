@@ -381,6 +381,9 @@ video{
 	object-fit:scale-down;
 }
 
+iframe{
+	frameborder=0;
+}
 /*
 Overview
 */
