@@ -28,13 +28,27 @@
 			<h2>Atoms</h2>
 			<p>This are the 'atom' elements that are the building blocks for the molecules and organisms</p>
 			
+			<h3>Colors</h3>
+			<p>Here are the 'brand' colors for the website</p>
+			<div class="third-col">
+				<div style="background-color:white; height:200px; width:200px; border-style:solid; border-color:black;">
+				
+				</div>
+				<div style="background-color:#93bbe4; height:200px; width:200px;">
+				
+				</div>
+				<div style="background-color:#4578AD; height:200px; width:200px;">
+				
+				</div>
+			</div>
+			
 			<h3>Headings</h3>
 			<p> These are headings h1 through h4. Heading 1 is only meant to be used in the nav</p>
 			
 			<h1>Heading 1</h1>
 			<h2>Heading 2</h2>
 			<h3>Heading 3</h3>
-			<h3>Heading 4</h4>
+			<h4>Heading 4</h4>
 			
 			<h3>Grids</h3>
 			<p>These grids are containers for content, and can hold text, images, videos, etc</p>
@@ -76,6 +90,148 @@
 				</p>
 			</div>
 			
+			<h3>Image</h3>
+			<p> Images are usually contained within a column structure, or within a figure tag with a caption</p>
+			<img src="../img/sfuau/final.jpg">
+			
+			<h3>Caption</h3>
+			<p>Captions are a little smaller and more grey than normal text. They are only meant to provide more context to the image, and not a continuation of the main content</p>
+			<figcaption>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec quam ac lorem hendrerit finibus. Duis pulvinar nulla interdum augue ullamcorper, at tempor lacus ornare.
+			</figcaption>
+			
+			<h3>Links and Buttons</h3>
+			
+			<p>Here are the links and buttons used throughout the portfolio</p>
+			
+			<h4>Navigation Button</h4>
+			<nav>
+				<a class="button nav" href="#">Meow!</a>
+			</nav>
+			<h4>In-text Link</h4>
+			<a href="#">Meow Meow!</a>
+			
+			<h3>Input Fields</h3>
+			<p> These are used for my contact page, so that visitors can enter their information</p>
+			
+			<h4>Text Input</h4>
+			
+			<p>This is ideal for entering information that only take up one line, like a name or email address</p>
+			<input type="text" title="first-name">
+			
+			<h4>Text Area</h4>
+			<p>This is ideal for entering information that will take longer than one line, like a message</p>
+			<textarea rows="5" cols="100" title="message">Enter message here...</textarea>
+			
+		</section>
+		
+		<section id="molecules">
+			<h2>Molecules</h2>
+			<p>These are more hefty chunks built from atoms, but are too small to stand on their own as an organism</p>
+			
+			<h3>Project Listing</h3>
+			<div class="half-col">
+			<p class="left">This is meant to give visitors a peek at each project, and give them brief information about the project to help them make a decision on which one they would like to see. By surrounding it with an anchor tag it is a clickable link to the project it is describing.</p>
+			
+			<a class="project-listing no-underline right" href="#">
+				<div class="project-info">
+					<img src="../img/sfuau/icon.svg" alt="A photo that shows how the kinect sees, by coloring each point of the image a different color based on the distance away from it">
+					<h3 class="center"> Logo Design</h3>
+					<p>An individual personal project making a logo for SFU Autistics United, a new club at SFU.</p>
+				</div>
+			</a>
+			</div>
+			
+			<h3>Figure + Caption</h3>
+			
+			<div class="half-col">
+				<p class="left">By combining an image and text within the figure tag, I am able to provide more context to the images that I use to show my project and process</p>
+				
+				<figure class="right">
+					<img src="../img/luckycat/tracing-example.png" alt="a perspective image of the front shell of the lucky cat toy, with a line tracing on top of it">
+					<figcaption> A look at how I used the image to trace the Lucky Cat's form in Adobe Illustrator</figcaption>
+				</figure>
+			</div>
+			
+			<p> For situations where it is better to have a collection of images, I created the multi-image figure shown below</p>
+			<figure class="multi">
+				<div class="third-col">
+					<div class="left">
+						<img src="../img/sfuau/infinity-1.jpg" alt="a sketch of 6 infinity-loops colored in rainbow-order, stacked slightly on top of each other">
+					</div>
+					<div>
+						<img src="../img/sfuau/infinity-2.jpg" alt="a sketch of 6 infinity-loops colored in rainbow order looping through each other side-by-side">
+					</div>
+					<div class="right">
+						<img src="../img/sfuau/infinity-3.jpg" alt="a sketch of 3 infinity loops, each with 2 colors of the rainbow, looping through each other at the bottom, with the side loops pointed at an angle">
+					</div>
+				</div>
+				<figcaption>
+					These sketches were more popular because they focused more on the autism identity of the club. 
+				</figcaption>
+			</figure>
+		</section>
+		
+		<section id="organisms">
+			<h2>Organisms</h2>
+			
+			<h3>Navigation</h3>
+			<p>This organism is used on all pages of the portfolio and gives visitors the ability to navigate the portfolio</p>
+			
+			<nav>
+				<h1> Chantal Snazel</h1>
+				<div class="navigation">
+					<a class="button nav" href="#"> Projects</a>
+					<a class="button nav" href="#"> About Me</a>
+					<a class="button nav" href="#"> Contact</a>
+				</div>
+			</nav>
+			
+			<h3>Project Listing</h3>
+			<p>To display more than one project, the project listing molecule is repeated within a column structure</p>
+			<div class="third-col">
+				<a class="project-listing no-underline left" href="#">
+					<div class="project-info">
+						<img src="../img/sfuau/icon.svg" alt="A photo that shows how the kinect sees, by coloring each point of the image a different color based on the distance away from it">
+						<h3 class="center"> Logo Design</h3>
+						<p>An individual personal project making a logo for SFU Autistics United, a new club at SFU.</p>
+					</div>
+				</a>
+				<a class="project-listing no-underline" href="#">
+					<div class="project-info">
+						<img src="../img/kinect/icon.svg" alt="A photo that shows how the kinect sees, by coloring each point of the image a different color based on the distance away from it">
+						<h3 class="center"> Augmented Reality Sandbox</h3>
+						<p>A long-term team project creating an AR Sandbox, using the Kinect, Arduino and Processing IDE</p>
+					</div>
+				</a>
+				<a class="project-listing no-underline right" href="#">
+					<div class="project-info">
+						<img src="../img/luckycat/icon.svg" alt="A photo that shows how the kinect sees, by coloring each point of the image a different color based on the distance away from it">
+						<h3 class="center">Object Dissection Drawing</h3>
+						<p>A partner assignment where we take apart a Lucky Cat and make an exploded view poster in Adobe Illustrator</p>
+					</div>
+				</a>
+			</div>
+			
+			<h3>Overview</h3>
+			<p>By combining the column structure with text, I created an overview organism that summarizes some of the details of the project at the very beginning of the process. This helps visitors receive that information very quickly, and provides me more room to discuss more in the copy.</p>
+			
+			<div class="overview">
+				<h3>Class</h3>
+				<p>Materials in Design, Spring 2017, Team of 2</p>
+				
+				<div class="half-col">
+					<div class="left">
+						<h3>Objective</h3>
+						<p> Dissect a found object and create a poster of exploded view of how the found object assembles, in order to understand the importance of the choice and quality of material.<p>
+					</div>
+					<div class="right">
+						<h3>Tools</h3>
+						<p>Adobe Illustrator and a camera</p>
+					</div>
+				
+				</div>
+			</div>
 			
 		</section>
 		
