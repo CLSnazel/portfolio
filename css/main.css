@@ -295,6 +295,13 @@ figure img{
 	margin-right:auto;
 	margin-left:auto;
 }
+figure iframe{
+	max-width:100%;
+	height:auto;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+}
 figcaption{
 		color:#777777;
 		font-size:.85rem;
@@ -330,11 +337,16 @@ PROJECT LISTING
 	margin-bottom:1rem;
 	background-color:#4578AD;
 	color:white;
+	
+	-webkit-transition: background-color 0.75s ease-out;
+	transition: background-color 0.75s ease-out;
 }
 
 .project-listing:focus, .project-listing:hover{
 	color:black;
 	background-color:white;
+	
+	box-shadow: 5px 5px 10px #AAAAAA;
 	
 	-webkit-transition: background-color 0.75s ease-out;
 	transition: background-color 0.75s ease-out;
