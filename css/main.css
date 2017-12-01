@@ -101,7 +101,8 @@ nav .button:hover, nav .button:focus{
 
 	width:auto;
 	
-	margin-bottom:5%;
+	margin-top:2rem;
+	margin-bottom:2rem;
 }
 
 
@@ -125,10 +126,6 @@ nav .button:hover, nav .button:focus{
 	margin-top:0;
 }
 
-div.half-col{
-	margin-top:1em;
-	margin-bottom:3em;
-}
 
 .center{
 	text-align:center;
@@ -159,7 +156,6 @@ div.half-col{
 }
 @media (min-width:34em){
 	section .half-col *{
-		margin-right:auto;
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -213,7 +209,7 @@ QUARTER COLUMN
 /*THIRD COLUMN*/
 
 .third-col{
-	 display: -webkit-box;
+	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
@@ -254,8 +250,8 @@ QUARTER COLUMN
 		height:auto;
 	}
 	.third-col{
-		margin-top:1em;
-		margin-bottom:2em;
+		margin-top:2rem;
+		margin-bottom:2rem;
 	}
 	.third-col .left{
 		margin-left:0;
@@ -302,9 +298,13 @@ figure iframe{
 	margin-right:auto;
 	margin-left:auto;
 }
+figure.multi{
+	margin-top:2rem;
+}
 figcaption{
 		color:#777777;
 		font-size:.85rem;
+		margin-top:1rem;
 	}
 @media(min-width:37.5em){
 	figure{
