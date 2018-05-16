@@ -1,38 +1,42 @@
 @font-face{
-	font-family:"Milkshake";
+	font-family:"Georgia";
 	
 	font-weight:normal;
 	font-style: normal;
-	src: url("../fonts/Milkshake.otf") format("opentype");
-	src: url("../fonts/Milkshake.ttf") format("truetype");
+	src: url("../fonts/georgia.ttf") format("truetype");
+	src: url("../fonts/georgiaiab.ttf") format("truetype");
+	src: url("../fonts/georgiaiai.ttf") format("truetype");
 }
 @font-face{
-	font-family:"TeX-Gyre-Schola";
+	font-family:"Franklin";
 	
 	font-weight:normal;
 	font-style:normal;
-	src: url("../fonts/texgyreschola-regular.otf") format("opentype");
+	src: url("../fonts/FRABK.ttf") format("truetype");
 }
 
 body{
 	margin:0;
-	font-family:"TeX-Gyre-Schola";
+	font-family:"Franklin";
 }
 
 h1{
-	font-family:"Milkshake";
-	font-size:3.5rem;
-	background-color:#93bbe4;
-	text-align:center;
-	color:white;
-	margin:0;
-	padding:.5rem;
+	font-family: "Georgia";
+    font-weight: normal;
+    font-size: 3.5rem;
+    font-style: italic;
+    background-color: #93bbe4;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: .5rem;
 }
 
-h2{
-	font-size:2.5rem;
+h2, h3, h4, h5, h6{
+	font-family: "Georgia";
+    font-weight: bold;
+	font-style: italic;
 }
-
-h3{
-	font-size:1.75rem;
+p{
+	font-style:normal;
 }
