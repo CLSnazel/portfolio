@@ -57,19 +57,21 @@ BUTTON
 */
 
 nav{
-	background-color:#93bbe4;
+	
 	text-align:center;
-	color:white;
 	box-shadow:0px 0px 30px #AAAAAA;
+	border-bottom-style:solid;
+	border-bottom-color:#93bbe4;
 }
 nav .button{
 	text-decoration:none;
-	color:white;
 	max-width:100%;
-	
+	color:black;
 	flex-grow:1;
 	flex-shrink:1;
-
+    font-family:"Georgia";
+	font-style:italic;
+	font-weight:bold;
 	
 }
 
@@ -306,20 +308,21 @@ PROJECT LISTING
 */
 
 .project-listing{
-	
-	margin-bottom:1rem;
-	background-color:#4578AD;
-	color:white;
-	
-	-webkit-transition: background-color 0.75s ease-out;
-	transition: background-color 0.75s ease-out;
-}
-
-.project-listing:focus, .project-listing:hover{
 	color:black;
 	background-color:white;
 	
 	box-shadow: 5px 5px 10px #AAAAAA;
+	
+	-webkit-transition: background-color 0.75s ease-out;
+	transition: background-color 0.75s ease-out;
+	
+	margin-bottom:1rem;
+}
+
+.project-listing:focus, .project-listing:hover{
+	
+	background-color:#4578AD;
+	color:white;
 	
 	-webkit-transition: background-color 0.75s ease-out;
 	transition: background-color 0.75s ease-out;
