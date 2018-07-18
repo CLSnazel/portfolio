@@ -308,10 +308,9 @@ PROJECT LISTING
 */
 
 .project-listing{
-	color:black;
-	background-color:white;
+	background-color:#4578AD;
+	color:white;
 	
-	box-shadow: 5px 5px 10px #AAAAAA;
 	
 	-webkit-transition: background-color 0.75s ease-out;
 	transition: background-color 0.75s ease-out;
@@ -321,8 +320,10 @@ PROJECT LISTING
 
 .project-listing:focus, .project-listing:hover{
 	
-	background-color:#4578AD;
-	color:white;
+	color:black;
+	background-color:white;
+	
+	box-shadow: 5px 5px 10px #AAAAAA;
 	
 	-webkit-transition: background-color 0.75s ease-out;
 	transition: background-color 0.75s ease-out;
