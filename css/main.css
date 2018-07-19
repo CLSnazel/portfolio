@@ -399,6 +399,11 @@ Overview
 	color:white;
 	padding-left:5%;
 	padding-right:5%;
-	padding-top:1rem;
+	padding-top:.1rem;
+	padding-bottom:.1rem;
 	
+}
+.overview ul{
+	margin-top:0;
+	padding-left:0;
 }
