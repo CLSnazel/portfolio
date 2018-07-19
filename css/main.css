@@ -246,6 +246,7 @@ figure{
 	margin-right:0;
 	margin-top:1rem;
 	
+	max-width:100%;
 	box-shadow:4px 4px 10px #cccccc;
 	padding:5%;
 }
@@ -262,6 +263,7 @@ figure .third-col *{
 }
 figure img{
 	display:block;
+	max-width:100%;
 	margin-right:auto;
 	margin-left:auto;
 }
