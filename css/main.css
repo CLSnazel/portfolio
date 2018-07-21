@@ -291,6 +291,10 @@ figcaption{
 	}
 }
 
+figure.half-col img{
+	margin-bottom:1em;
+}
+
 /*
 Left - right margin testing
 */
