@@ -24,22 +24,24 @@
 			<h2>Contact Me</h2>
 			  
 			<p> Have any questions or comments? Feel free to reach out to me with the form below</p>
-			  
-			<div class="half-col">
-				<div class="left">
-					<p>First Name</p>
-					<input type="text" title="first-name">
+			<form action="send.php" method="post">  
+				<div class="half-col">
+					<div class="left">
+						<label>First Name</label>
+						<input type="text" title="first-name">
+					</div>
+					<div class="right">
+						<label>Last Name</label>
+						<input type="text" title="last-name">
+					</div>
 				</div>
-				<div class="right">
-					<p>Last Name</p>
-					<input type="text" title="last-name">
-				</div>
-			</div>
-			<p>Email</p>
-			<input type="text" title="email">
-			<p>Message</p>
-			<textarea rows="10" cols="100" title="message">Enter message here...</textarea>
-			<a class="button submit" href="#">Submit</a>
+				<label>Email</label>
+				<input type="email" title="email">
+				<label>Message</label>
+				<textarea rows="10" cols="100" title="message">Enter message here...</textarea>
+				<!---<a class="button submit" href="#">Submit</a>-->
+				<button type="submit">Submit</button>
+			</form>
 		</section>
 
 	</body>

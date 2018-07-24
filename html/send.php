@@ -6,6 +6,9 @@
     $from = 'From: Portfolio'; 
     $to = 'csnazel@sfu.ca'; 
     $subject = 'Hello';
+	$headers='';
 
     $body = "From: $firstName $lastName\n E-Mail: $email\n Message:\n $message";
+	mail($to,$subject,$body,$headers);
+	echo "mail sent";
 ?>
